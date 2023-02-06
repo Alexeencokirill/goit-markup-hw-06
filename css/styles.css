@@ -585,8 +585,7 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 408px;
-    height: 576px;
-    padding: 72px 24px;
+    padding: 72px 24px 24px 24px;
     border-radius: 4px;
     background: var(--modal-bg-color);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -643,7 +642,7 @@ button {
 }
 
 .modal-form-field {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .modal-form-input-desc {
@@ -706,15 +705,15 @@ button {
 }
 
 .container-policy {
-    /* display: flex; */
+    display: flex;
 }
 
 .check-policy {
     padding-left: 16px; 
     font-size: 12px;
-    line-height: 1.33px;
+    line-height: 1.33;
     color: #757575;
-    letter-spacing: 0,04em;
+    letter-spacing: 0.04em;
 }
 
 .check-policy-input{
