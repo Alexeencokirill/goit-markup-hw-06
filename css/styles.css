@@ -638,7 +638,7 @@ button {
     line-height: 24px;
     color: var(--dark-color);
     letter-spacing: 0.02em;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
 }
 
 .modal-form-field {
@@ -659,7 +659,8 @@ button {
     width: 100%;
     height: 40px;
     padding-left: 38px;
-    border: 1px solid var(--primary-brand-color);
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    outline: none;
     border-radius: 4px;
     color: var(--dark-color);
     transition: border-color var(--transition-duration) var(--transition-function);
@@ -683,11 +684,14 @@ button {
 }
 
 .modal-form-message {
+    display: block;
     width: 100%;
     height: 120px;
     padding: 10px 16px;
     border-radius: 4px;
     resize: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    outline: none;
     transition: border-color var(--transition-duration) var(--transition-function);
 }
 
@@ -706,6 +710,7 @@ button {
 
 .container-policy {
     display: flex;
+    margin-top: 8px;
 }
 
 .check-policy {
@@ -793,7 +798,7 @@ button {
     outline: none;
     font-size: 12px;
     line-height: 24px;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--white-color);
     padding: 8px 0 8px 16px;
     width: 264px;
     height: 40px;
@@ -809,6 +814,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 40px;
     min-width: 165px;
     font-size: 16px;
     font-weight: 500;
